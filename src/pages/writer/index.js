@@ -3,6 +3,15 @@ import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 class Write extends PureComponent {
+	componentWillReceiveProps(nextProps) {
+		
+	}
+	shouldComponentUpdate(nextProps, nextState, nextContext) {
+		 
+	}
+	componentWillUpdate() {
+		
+	}
 	render() {
 		const { loginStatus } = this.props;
 		if (loginStatus) {
