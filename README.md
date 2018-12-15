@@ -289,5 +289,6 @@ connect(mapStateToProps, mapDispatchToProps)(wrappedComponent)
 3. Refs不回被传递给被包装组件。
 4. 与父组件的区别。如果这部分逻辑与UI/DOM相关，那么这部门逻辑适合放在父组件中实现；如果逻辑与DOM不直接相关，那么这部分逻辑适合放在高阶组件的抽象中。例如数据校验请求发送等
 
-**结束语**
-最后感谢能看到这里的朋友，因为水平有限，如果有错误敬请指正，十分感激。
+参考：<br/>
+[react进阶之路](https://item.jd.com/12325717.html)<br >
+[react从入门到实战](https://coding.imooc.com/class/229.html)
