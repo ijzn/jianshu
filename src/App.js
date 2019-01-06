@@ -11,7 +11,7 @@ import Writer from './pages/writer';
 
 import store from './store';
 
-
+// 注释
 class App extends Component {
   render() {
     return (
